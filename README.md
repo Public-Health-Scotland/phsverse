@@ -3,6 +3,9 @@
 
 # phsverse
 
+[![GitHub release (latest by
+date)](https://img.shields.io/github/v/release/Public-Health-Scotland/phsverse)](https://github.com/Public-Health-Scotland/phsverse/releases/latest)
+
 This package is designed to make it easy to install and load multiple
 packages developed in PHS in a single step. It is created with
 [metamakr](https://github.com/jdtrat/metamakr) and combines our [Public
@@ -41,5 +44,5 @@ Load `phsverse` using `library()`:
 library(phsverse)
 #> -- Attaching packages ---------------------------------------- phsverse 0.1.0 --
 #> v phstemplates 0.9.6     v phsstyles    0.1.0
-#> v phsmethods   0.2.0
+#> v phsmethods   0.2.1
 ```

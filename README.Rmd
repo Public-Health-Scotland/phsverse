@@ -15,6 +15,9 @@ knitr::opts_chunk$set(
 
 # phsverse
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Public-Health-Scotland/phsverse)](https://github.com/Public-Health-Scotland/phsverse/releases/latest)
+
+
 This package is designed to make it easy to install and load multiple packages developed in PHS in a single step. It is created with [metamakr](https://github.com/jdtrat/metamakr) and
 combines our [Public Health Scotland (PHS)](https://www.publichealthscotland.scot/) packages on GitHub:
 
