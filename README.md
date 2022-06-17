@@ -25,9 +25,27 @@ You can then install `phsverse` on RStudio server from GitHub with:
 
 ``` r
 remotes::install_github("Public-Health-Scotland/phsverse",
-  upgrade = "never"
+  force = TRUE
 )
 ```
+
+As `phsverse` is a meta package and rarely gets updated,
+`install_github()` thinks there is nothing to be updated if there have
+not been changes to the `phsverse` repository. However, there may have
+been changes to its associated packages so `force = TRUE` is needed to
+check for updates in the associated packages and install them if
+necessary.
+
+After running you may see the message “Which would you like to update?”
+if there are updates of our PHS packages available. Please enter the
+numbers of the PHS packages separated by a comma. Here is a screenshot
+of how it looks like:
+
+<img src="man/figures/README-package_update.JPG" width="70%" style="display: block; margin: auto;" />
+
+During the process of updating PHS packages it may ask you to update
+other packages on CRAN. You can enter “3” representing “None” if you do
+not wish to update other CRAN packages for now.
 
 Network security settings may prevent `remotes::install_github()` from
 working on RStudio desktop. If this is the case, you have to disconnect
@@ -43,6 +61,6 @@ Load `phsverse` using `library()`:
 ``` r
 library(phsverse)
 #> -- Attaching packages ---------------------------------------- phsverse 0.1.0 --
-#> v phstemplates 0.9.6     v phsstyles    0.1.0
+#> v phstemplates 1.0.0     v phsstyles    0.1.1
 #> v phsmethods   0.2.1
 ```
