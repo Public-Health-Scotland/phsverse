@@ -4,6 +4,8 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -15,8 +17,10 @@ knitr::opts_chunk$set(
 
 # phsverse
 
+<!-- badges: start -->
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Public-Health-Scotland/phsverse)](https://github.com/Public-Health-Scotland/phsverse/releases/latest)
-
+[![R-CMD-check](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 This package is designed to make it easy to install and load multiple packages developed in PHS in a single step. It is created with [metamakr](https://github.com/jdtrat/metamakr) and
 combines our [Public Health Scotland (PHS)](https://www.publichealthscotland.scot/) packages on GitHub:
