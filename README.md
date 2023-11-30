@@ -3,8 +3,14 @@
 
 # phsverse
 
+<!-- badges: start -->
+
 [![GitHub release (latest by
 date)](https://img.shields.io/github/v/release/Public-Health-Scotland/phsverse)](https://github.com/Public-Health-Scotland/phsverse/releases/latest)
+[![R-CMD-check](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/Public-Health-Scotland/phsverse/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Public-Health-Scotland/phsverse?branch=master)
+<!-- badges: end -->
 
 This package is designed to make it easy to install and load multiple
 packages developed in PHS in a single step. It is created with
@@ -60,7 +66,7 @@ Load `phsverse` using `library()`:
 
 ``` r
 library(phsverse)
-#> -- Attaching packages ---------------------------------------- phsverse 0.1.0 --
-#> v phstemplates 1.0.0     v phsstyles    0.1.1
-#> v phsmethods   0.2.1
+#> ── Attaching packages ──────────────────────────────────────── phsverse 0.1.0 ──
+#> ✔ phstemplates 1.1.1                      ✔ phsstyles    0.1.1.0.0.0.1654859281
+#> ✔ phsmethods   1.0.0.0.0.0.1695807523
 ```
