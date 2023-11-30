@@ -20,6 +20,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Public-Health-Scotland/phsverse)](https://github.com/Public-Health-Scotland/phsverse/releases/latest)
 [![R-CMD-check](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Public-Health-Scotland/phsverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/Public-Health-Scotland/phsverse/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Public-Health-Scotland/phsverse?branch=master)
 <!-- badges: end -->
 
 This package is designed to make it easy to install and load multiple packages developed in PHS in a single step. It is created with [metamakr](https://github.com/jdtrat/metamakr) and
