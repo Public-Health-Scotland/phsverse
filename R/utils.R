@@ -1,6 +1,4 @@
-
 text_col <- function(x) {
-
   # If RStudio API is not available and/or does not have the getThemeInfo
   # button, exit function leaving default color of black
   if (!rstudioapi::isAvailable() || !rstudioapi::hasFun("getThemeInfo")) {
