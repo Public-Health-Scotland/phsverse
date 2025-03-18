@@ -2,13 +2,12 @@ Package: phsverse
 Title: Easily Install and Load Packages Developed in PHS
 Version: 0.1.0
 Authors@R: 
-    person("Tina", "Fu", email = "Yuyan.Fu2@phs.scot", role = c("aut", "cre"))
-Description: This package is designed to make it easy to install and load multiple packages developed in PHS in a single step.
+    person("Tina", "Fu", , "Yuyan.Fu2@phs.scot", role = c("aut", "cre"))
+Description: This package is designed to make it easy to install and load
+    multiple packages developed in PHS in a single step.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+URL: https://github.com/Public-Health-Scotland/phsverse
+BugReports: https://github.com/Public-Health-Scotland/phsverse/issues
 Imports: 
     cli,
     crayon,
@@ -17,7 +16,14 @@ Imports:
     phstemplates (>= 0.9.6),
     rstudioapi,
     utils
+Suggests: 
+    testthat (>= 3.0.0)
 Remotes: 
-    Public-Health-Scotland/phstemplates,
     Public-Health-Scotland/phsmethods,
-    Public-Health-Scotland/phsstyles
+    Public-Health-Scotland/phsstyles,
+    Public-Health-Scotland/phstemplates
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
