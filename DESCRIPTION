@@ -17,10 +17,13 @@ Imports:
     phstemplates (>= 0.9.6),
     rstudioapi,
     utils
+Suggests: 
+    testthat (>= 3.0.0)
 Remotes: 
     Public-Health-Scotland/phsmethods,
     Public-Health-Scotland/phsstyles,
     Public-Health-Scotland/phstemplates
+Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
