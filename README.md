@@ -12,9 +12,9 @@ packages developed in PHS in a single step. It is created with
 Health Scotland (PHS)](https://www.publichealthscotland.scot/) packages
 on GitHub:
 
--   [phstemplates](https://github.com/Public-Health-Scotland/phstemplates)
--   [phsmethods](https://github.com/Public-Health-Scotland/phsmethods)
--   [phsstyles](https://github.com/Public-Health-Scotland/phsstyles)
+- [phstemplates](https://github.com/Public-Health-Scotland/phstemplates)
+- [phsmethods](https://github.com/Public-Health-Scotland/phsmethods)
+- [phsstyles](https://github.com/Public-Health-Scotland/phsstyles)
 
 ## Installation
 
@@ -41,7 +41,7 @@ if there are updates of our PHS packages available. Please enter the
 numbers of the PHS packages separated by a comma. Here is a screenshot
 of how it looks like:
 
-<img src="man/figures/README-package_update.JPG" width="70%" style="display: block; margin: auto;" />
+<img src="man/figures/README-package_update.JPG" alt="" width="70%" style="display: block; margin: auto;" />
 
 During the process of updating PHS packages it may ask you to update
 other packages on CRAN. You can enter “3” representing “None” if you do
@@ -60,7 +60,7 @@ Load `phsverse` using `library()`:
 
 ``` r
 library(phsverse)
-#> -- Attaching packages ---------------------------------------- phsverse 0.1.0 --
-#> v phstemplates 1.0.0     v phsstyles    0.1.1
-#> v phsmethods   0.2.1
+#> ── Attaching packages ──────────────────────────────────────── phsverse 0.1.0 ──
+#> ✔ phstemplates 1.3.0     ✔ phsstyles    0.2.0
+#> ✔ phsmethods   1.1.0
 ```
