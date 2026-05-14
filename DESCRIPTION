@@ -15,7 +15,6 @@ BugReports: https://github.com/Public-Health-Scotland/phsverse/issues
 Imports: 
     cli,
     crayon,
-    phslookups (>= 0.1.0),
     phsmethods (>= 1.0.2),
     phsopendata (>= 1.0.0),
     phsstyles (>= 0.1.1),
@@ -25,7 +24,6 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0)
 Remotes: 
-    Public-Health-Scotland/phslookups,
     Public-Health-Scotland/phsstyles,
     Public-Health-Scotland/phstemplates
 Config/testthat/edition: 3
