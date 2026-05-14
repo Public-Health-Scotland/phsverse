@@ -2,6 +2,7 @@
 % Please edit documentation in R/phsverse.R
 \docType{package}
 \name{phsverse}
+\alias{phsverse-package}
 \alias{phsverse}
 \title{\code{phsverse} package}
 \description{
@@ -10,4 +11,21 @@ This package is designed to make it easy to install and load multiple packages d
 \details{
 See the README on
 \href{https://github.com/Public-Health-Scotland/phsverse#readme}{GitHub}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/Public-Health-Scotland/phsverse}
+  \item Report bugs at \url{https://github.com/Public-Health-Scotland/phsverse/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Tina Fu \email{Yuyan.Fu2@phs.scot}
+
+Authors:
+\itemize{
+  \item Tina Fu \email{Yuyan.Fu2@phs.scot}
+}
+
 }
