@@ -19,5 +19,16 @@ Useful links:
 \author{
 \strong{Maintainer}: Tina Fu \email{Yuyan.Fu2@phs.scot}
 
+Authors:
+\itemize{
+  \item Tina Fu \email{Yuyan.Fu2@phs.scot}
+}
+
+Other contributors:
+\itemize{
+  \item Public Health Scotland \email{phs.datascience@phs.scot} [copyright holder]
+  \item James Hayes \email{James.Hayes2@phs.scot} (\href{https://orcid.org/0000-0002-5380-2029}{ORCID}) [contributor]
+}
+
 }
 \keyword{internal}
