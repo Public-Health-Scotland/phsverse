@@ -26,11 +26,11 @@ attaches the main PHS R packages used across analytical workflows.
 phsverse currently includes:
 
 - [phsmethods](https://github.com/Public-Health-Scotland/phsmethods) -
-  templates for PHS analytical outputs.
-- [phsstyles](https://github.com/Public-Health-Scotland/phsstyles) -
-  commonly used methods and helper functions for PHS analysis.
+  Commonly used methods and helper functions for PHS analysis.
+- [phsstyles](https://github.com/Public-Health-Scotland/phsstyles) - PHS
+  colours, themes and styling helpers.
 - [phstemplates](https://github.com/Public-Health-Scotland/phstemplates) -
-  PHS colours, themes and styling helpers.
+  Templates for PHS analytical outputs.
 
 ## Installation
 
