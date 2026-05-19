@@ -1,4 +1,3 @@
-
 pkgs <- sort(c("phstemplates", "phsmethods", "phsstyles", "phsopendata"))
 
 phsverse_attach <- function() {
