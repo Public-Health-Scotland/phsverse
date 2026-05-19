@@ -30,9 +30,9 @@ It is a meta-package created with [metamakr](https://github.com/jdtrat/metamakr)
 
 phsverse currently includes:
 
-- [phsmethods](https://github.com/Public-Health-Scotland/phsmethods) - templates for PHS analytical outputs.
-- [phsstyles](https://github.com/Public-Health-Scotland/phsstyles) - commonly used methods and helper functions for PHS analysis.
-- [phstemplates](https://github.com/Public-Health-Scotland/phstemplates) - PHS colours, themes and styling helpers.
+- [phsmethods](https://github.com/Public-Health-Scotland/phsmethods) - Commonly used methods and helper functions for PHS analysis.
+- [phsstyles](https://github.com/Public-Health-Scotland/phsstyles) - PHS colours, themes and styling helpers.
+- [phstemplates](https://github.com/Public-Health-Scotland/phstemplates) - Templates for PHS analytical outputs. 
 
 ## Installation
 
