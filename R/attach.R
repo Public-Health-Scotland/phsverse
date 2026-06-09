@@ -1,4 +1,4 @@
-pkgs <- sort(c("phstemplates", "phsmethods", "phsstyles", "phsopendata"))
+pkgs <- c("phsmethods", "phsopendata", "phsstyles", "phstemplates")
 
 phsverse_attach <- function() {
   # Create `to_load` which is a character vector of all phsverse
