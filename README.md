@@ -73,6 +73,6 @@ Load `phsverse` using `library()`:
 ``` r
 library(phsverse)
 #> ── Attaching packages ──────────────────────────────────────── phsverse 0.1.0 ──
-#> ✔ phstemplates 1.3.0     ✔ phsstyles    0.2.1
-#> ✔ phsmethods   1.1.0
+#> ✔ phsmethods   1.2.0     ✔ phsstyles    0.2.2
+#> ✔ phsopendata  1.1.0     ✔ phstemplates 1.3.0
 ```
