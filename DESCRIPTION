@@ -15,8 +15,8 @@ BugReports: https://github.com/Public-Health-Scotland/phsverse/issues
 Imports: 
     cli,
     crayon,
-    phsmethods (>= 1.0.2),
-    phsopendata (>= 1.0.0),
+    phsmethods (>= 1.2.0),
+    phsopendata (>= 1.1.0),
     phsstyles (>= 0.1.1),
     phstemplates (>= 1.2.0),
     rstudioapi,
